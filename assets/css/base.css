@@ -1,0 +1,222 @@
+:root {
+    --primary-color: #3fd0d4;
+    --white-color: #fff;
+    --heading-color: #212121;
+    --text-color: #505050;
+    --second-color: #3abdc1;
+
+    --header-height: 80px;
+}
+
+.app {
+    position: relative;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+}
+
+.pull-right {
+    text-align: right !important;
+}
+
+.margin-right {
+    margin-right: 0 !important;
+}
+
+
+/* responsive */
+
+.grid {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row--full-width {
+    display: flex;
+    width: 100%;
+}
+
+.grid__col-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.grid__col-3--no-pad {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+/* animation */
+
+@keyframes growthHeight {
+    from {
+        opacity: 0;
+        transform: translateY(-100% - 80px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes textAppear {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-10%);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slider {
+    25% {
+        background-image: url('https://www.jetsetter.com//uploads/sites/7/2018/04/7Np69-pW-1380x690.jpeg');
+    }
+    50% {
+        background-image: url('https://res.cloudinary.com/whistler/image/upload/w_500,c_scale,dpr_3.0,q_auto/v1/s3/images/header/skiing-whistler-blackcomb-2.jpg');
+    }
+    75% {
+        background-image: url('https://www.silverswanrecruitment.com/wp-content/uploads/2018/04/pexels-flo-maderebner-869258-scaled.jpg');
+    }
+    100% {
+        background-image: url('https://static.euronews.com/articles/stories/05/13/78/44/1440x810_cmsv2_1663514d-f816-50b3-ad92-b4d1195fd4cf-5137844.jpg');
+    }
+}
+
+
+/* btn */
+
+.header-navbar__close {
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.header-navbar__close-icon {
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: var(--white-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn.btn--primary:hover {
+    background-color: var(--second-color);
+}
+
+.btn.btn--normal:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.button-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.btn.btn--go-to-top {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    display: flex;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+}
+
+.btn.btn--go-to-top:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn.btn--go-to-top i {
+    margin: auto;
+    font-size: 1.4rem;
+}
+
+
+/* dot */
+
+.dot {
+    border: none;
+    outline: none;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(63,208,212, 0.5);
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: background-color ease-in 0.1s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dot:hover {
+    background-color: var(--second-color);
+}
+
+.dot.dot--active {
+    background-color: var(--second-color);
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: unset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(rgba(63, 208, 212, 0.4), rgba(63, 208, 212, 1));
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgba(63, 208, 212, 0.6), rgb(38, 134, 138));
+}
+
+
+
+

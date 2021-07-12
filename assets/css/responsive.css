@@ -1,0 +1,219 @@
+/* mobile tablet */
+@media (max-width: 64em) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    :root {
+        --header-height: 69px;
+    }
+
+    .header {
+        background-color: var(--primary-color);
+    }
+
+    .header-navbar__item-mobile-img {
+        display: block;
+    }
+
+    .header-navbar__mobile-menu {
+        display: block;
+    }
+
+    .header-navbar__mobile-menu-btn:checked ~ .header-navbar__mobile-menu-modal{
+        display: block;
+    }
+
+    .header-subnav__mobile-checkbox:checked ~ .header-subnav__mobile-wrap {
+        display: block;
+    }
+
+    .header-s-subnav__mobile-menu:checked ~ .header-s-subnav__mobile-wrap {
+        display: block;
+    }
+
+    .header-navbar__mobile-login-checkbox:checked ~ .header-navbar__mobile-modal {
+        display: flex;
+    }
+
+    .header-navbar__mobile-login {
+        display: block;
+    }
+
+    .slider__img {
+        margin-top: var(--header-height);
+    }
+
+    .footer {
+        padding: 50px 20px 10px;
+    }
+
+    .footer__item {
+        margin-top: 50px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 64em) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header-navbar {
+        padding: 0 80px;
+    }
+
+    .slider__text-sub-heading {
+        font-size: 8.2rem;
+        line-height: 8.2rem;
+    }
+
+    .slider__text-desc {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        padding: 0 100px;
+    }
+
+    .home-intro__item-clip {
+        width: 600px;
+        height: 290px;
+    }
+
+    .home-intro__item-desc {
+        width: 600px;
+    }
+
+    .home-holiday__sub-heading,
+    .home-review__heading,
+    .home-intro__item-sub-heading,
+    .home-resort__intro-sub-heading {
+        font-size: 5.8rem;
+        line-height: 5.8rem;
+    }
+
+    .home-holiday__desc,
+    .home-review__desc,
+    .home-resort__intro-desc {
+        width: 60vw;
+    }
+
+    .home-resort__item,
+    .home-holiday__item {
+        margin-top: 30px;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .home-resort__item-img {
+        width: 275px;
+        height: 275px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .home-resort__item-mark {
+        top: 5px;
+        right: 25px;
+    }
+
+    .home-review__item {
+        min-height: 270px;
+    }
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header-navbar {
+        padding: 0 24px;
+    }
+
+    .header-navbar__mobile-list {
+        padding: 0 20px;
+    }
+
+    .slider__text-sub-heading {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .slider__text-desc {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        padding: 0 ;
+    }
+
+    .slider__text-heading {
+        font-size: 3.4rem;
+        line-height: 3.4rem;
+    }
+
+    .home-intro__item-clip {
+        width: 290px;
+        height: 140px;
+    }
+
+    .home-intro__item-desc {
+        width: 290px;
+    }
+
+    .home-holiday__sub-heading,
+    .home-review__heading,
+    .home-intro__item-sub-heading,
+    .home-resort__intro-sub-heading {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .home-intro-clip__btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .home-intro__item-clip:hover .home-intro-clip__btn {
+        width: 55px;
+        height: 55px;
+    }
+
+    .home-holiday__desc,
+    .home-review__desc,
+    .home-resort__intro-desc {
+        width: 80vw;
+    }
+
+    .home-review__item {
+        padding: 30px 20px;
+    }
+
+    .home-review__item {
+        align-items: center;
+    }
+
+    .home-resort__item,
+    .home-holiday__item {
+        margin-top: 40px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .home-resort__item-img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .home-resort__item {
+        padding: 0;
+    }
+
+    .home-resort__item-mark {
+        top: 2px;
+        right: 25px;
+    }
+
+    .margin-top-48 {
+        margin-top: 48px;
+    }
+}
