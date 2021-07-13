@@ -6,6 +6,7 @@
     --second-color: #3abdc1;
 
     --header-height: 80px;
+    --header-connect-height: 46px;
 }
 
 .app {
@@ -119,7 +120,7 @@ html {
 }
 
 .header-navbar__close-icon {
-    font-size: 3rem;
+    font-size: 4.8rem;
     color: var(--white-color);
 }
 
@@ -138,6 +139,7 @@ html {
     font-size: 1.6rem;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    transition: 0.3s;
 }
 
 .btn.btn--primary:hover {

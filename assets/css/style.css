@@ -314,7 +314,7 @@
     min-width: 250px;
     transition-delay: 0s, 0s, 0.3s;
     animation: growthHeight ease-out 0.5s;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     display: none;
 }
 
@@ -432,7 +432,6 @@
 .header-subnav-large {
     position: fixed;
     z-index: 1;
-    top: 0;
     right: 0;
     left: 0;
     padding: 40px 50px;
@@ -659,7 +658,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: transparent;
     display: none;
     animation: fadeIn linear 0.3s;
 }
@@ -690,7 +689,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-    display: flex;    
     align-items: center;
     display: none;
     animation: fadeIn linear 0.3s;
@@ -706,7 +704,7 @@
 .header-navbar__mobile-login-box {
     position: relative;
     z-index: 1;
-    margin: 0 auto;
+    margin: auto;
     width: 308px;
     display: flex;
     align-items: center;
@@ -920,8 +918,7 @@
 .home-tour-item {
     margin: 0 auto 10px;
     width: 100%;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -1316,6 +1313,17 @@
 
 /* home team */
 
+.home-team-list {
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.home-team-list::-webkit-scrollbar {
+    display: none;
+    background: transparent;
+}
 
 .home-team__item {
     position: relative;
@@ -1324,6 +1332,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .home-team__item-info {
