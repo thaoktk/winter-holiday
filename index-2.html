@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-2.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="header-connect hide-on-mobile-tablet">
+                <div class="grid">
+                    <div class="header-connect__bar">
+                        <div class="header-connect__wrap">
+                            <ul class="header-connect__list">
+                                <li class="header-connect__item">
+                                    <a href="mailto:setsail@qode.com" class="header-connect__link">
+                                        <i class="far fa-envelope"></i>
+                                        <span>setsail@qode.com</span>
+                                    </a>
+                                </li>
+                                <li class="header-connect__item">
+                                    <a href="tel:1 562 867 5309" class="header-connect__link">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>1 562 867 5309</span>
+                                    </a>
+                                </li>
+                                <li class="header-connect__item">
+                                    <a href="" class="header-connect__link">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Broadway & Morris St, New York</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="header-connect__list">
+                                <li class="header-connect__item">
+                                    <a href="" class="header-connect__link">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="header-connect__item">
+                                    <a href="" class="header-connect__link">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                                <li class="header-connect__item">
+                                    <a href="" class="header-connect__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="header-connect__item">
+                                    <a href="" class="header-connect__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-connect__language">
+                            <div class="header-connect__language-select">
+                                <span>English</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <ul class="header-connect__language-option">
+                                <li class="header-connect__language-item">
+                                    <a href="" class="header-connect__language-btn">French</a>
+                                </li>
+                                <li class="header-connect__language-item">
+                                    <a href="" class="header-connect__language-btn">German</a>
+                                </li>
+                                <li class="header-connect__language-item">
+                                    <a href="" class="header-connect__language-btn">Italian</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-connect__login">
+                            <label for="mobile-login-btn">
+                                <span>
+                                    <i class="far fa-user-circle"></i>
+                                </span>
+                            </label>
+                            <input type="checkbox" name="" id="mobile-login-btn" class="header-navbar__mobile-login-checkbox">
+                            <div class="header-navbar__mobile-modal">
+                                <label for="mobile-login-btn" class="header-navbar__mobile-overlay"></label>
+                                <div class="header-navbar__mobile-login-box">
+                                    <div class="header-navbar__mobile-login-wrap">
+                                        <div class="header-navbar__mobile-login-text">
+                                            <span class="header-navbar__mobile-login-heading">LOGIN</span>
+                                            <span class="header-navbar__mobile-login-heading">REGISTER</span>
+                                        </div>
+                                        <div class="header-navbar__mobile-login-form">
+                                            <div class="header-navbar__mobile-text-heading">Sign in here!</div>
+                                            <div class="header-navbar__mobile-desc">Log into your account in just a few simple steps.</div>
+                                            <form action="">
+                                                <div class="header-navbar__mobile-input">
+                                                    <i class="header-navbar__mobile-input-icon far fa-user"></i>
+                                                    <input type="text" class="header-navbar__mobile-form-control" placeholder="Name">
+                                                </div>
+                                                <div class="header-navbar__mobile-input">
+                                                    <i class="header-navbar__mobile-input-icon fas fa-unlock-alt"></i>
+                                                    <input type="password" class="header-navbar__mobile-form-control" placeholder="Password">
+                                                </div>
+                                                <div class="header-navbar__mobile-input">
+                                                    <input type="checkbox" class="header-navbar__mobile-form-control" id="mobile-remember-login">
+                                                    <label for="mobile-remember-login">Remember me</label>
+                                                </div>
+                                            </form>
+                                            <a href="" class="header-navbar__mobile-login-link">Lost Your password?</a>
+                                            <button class="header-navbar__mobile-login-btn">SIGN IN</button>
+                                            <div class="header-navbar__mobile-desc">
+                                                Sign in with Facebook or Google+.
+                                            </div>
+                                        </div>
+                                        <div class="header-navbar__mobile-login-social">
+                                            <a href="" class="header-navbar__mobile-login-face">FACEBOOK</a>
+                                        <a href="" class="header-navbar__mobile-login-google">GOOGLE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="grid">
+                    <nav class="header-navbar">
+                        <div class="header-navbar__mobile-menu">
+                            <label for="mobile-menu-btn" class="header-navbar__mobile-menu-wrap">
+                                <i class="header-navbar__mobile-menu-icon fas fa-bars"></i>
+                            </label>
+                            <input type="checkbox" id="mobile-menu-btn" class="header-navbar__mobile-menu-btn">
+                            <label for="mobile-menu-btn" class="header-navbar__mobile-menu-modal">
+                                <div class="header-navbar__mobile-menu-overlay"></div>
+                                <div class="header-navbar__mobile-wrap">
+                                    <ul class="header-navbar__mobile-list">
+                                        <li class="header-navbar__mobile-item">
+                                            <label for="mobile-subnav-checkbox-1" class="header-subnav__mobile-btn">
+                                                <span class="header-navbar__mobile-item-heading">Home</span>
+                                                <i class="header-navbar__mobile-item-icon fas fa-chevron-right"></i>
+                                            </label>
+                                            <input type="checkbox" id="mobile-subnav-checkbox-1" class="header-subnav__mobile-checkbox">
+                                            <div class="header-subnav__mobile-wrap">
+                                                <ul class="header-subnav__mobile-list">
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Travel Agency</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="./index.html" class="header-subnav__mobile-link">Winter Holidays</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Exotic Destinations</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Summer Holidays</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">City Tours</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">New Year Trips</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Destinations Carousel</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Wine Tours</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Vacation Showcase</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Landing</a>
+                                                    </li>
+        
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-navbar__mobile-item">
+                                            <label for="mobile-subnav-checkbox-2" class="header-subnav__mobile-btn">
+                                                <span class="header-navbar__mobile-item-heading">Pages</span>
+                                                <i class="header-navbar__mobile-item-icon fas fa-chevron-right"></i>
+                                            </label>
+                                            <input type="checkbox" id="mobile-subnav-checkbox-2" class="header-subnav__mobile-checkbox">
+                                            <div class="header-subnav__mobile-wrap">
+                                                <ul class="header-subnav__mobile-list">
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">About Us</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">What We Offer</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Our Team</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Get In Touch</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Contact Us</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">FAQ Page</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Coming Soon</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Error Page</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-navbar__mobile-item">
+                                            <label for="mobile-subnav-checkbox-3" class="header-subnav__mobile-btn">
+                                                <span class="header-navbar__mobile-item-heading">Destinations</span>
+                                                <i class="header-navbar__mobile-item-icon fas fa-chevron-right"></i>
+                                            </label>
+                                            <input type="checkbox" id="mobile-subnav-checkbox-3" class="header-subnav__mobile-checkbox">
+                                            <div class="header-subnav__mobile-wrap">
+                                                <ul class="header-subnav__mobile-list">
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Destination List</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Destination Slider</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Destination Item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-navbar__mobile-item">
+                                            <label for="mobile-subnav-checkbox-4" class="header-subnav__mobile-btn">
+                                                <span class="header-navbar__mobile-item-heading">Tours</span>
+                                                <i class="header-navbar__mobile-item-icon fas fa-chevron-right"></i>
+                                            </label>
+                                            <input type="checkbox" id="mobile-subnav-checkbox-4" class="header-subnav__mobile-checkbox">
+                                            <div class="header-subnav__mobile-wrap">
+                                                <ul class="header-subnav__mobile-list">
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Standard List</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Gallery List</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Split List</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Tour Item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-navbar__mobile-item">
+                                            <label for="mobile-subnav-checkbox-5" class="header-subnav__mobile-btn">
+                                                <span class="header-navbar__mobile-item-heading">Blog</span>
+                                                <i class="header-navbar__mobile-item-icon fas fa-chevron-right"></i>
+                                            </label>
+                                            <input type="checkbox" id="mobile-subnav-checkbox-5" class="header-subnav__mobile-checkbox">
+                                            <div class="header-subnav__mobile-wrap">
+                                                <ul class="header-subnav__mobile-list">
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Blog Masonry</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-1" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Blog Standard</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-1" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Right Sidebar</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Left Sidebar</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Without Sidebar</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-2" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Post Types</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-2" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Standard</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Gallery</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Link</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Quote</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Video</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Audio</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">No Sidebar</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-navbar__mobile-item">
+                                            <label for="mobile-subnav-checkbox-6" class="header-subnav__mobile-btn">
+                                                <span class="header-navbar__mobile-item-heading">Shop</span>
+                                                <i class="header-navbar__mobile-item-icon fas fa-chevron-right"></i>
+                                            </label>
+                                            <input type="checkbox" id="mobile-subnav-checkbox-6" class="header-subnav__mobile-checkbox">
+                                            <div class="header-subnav__mobile-wrap">
+                                                <ul class="header-subnav__mobile-list">
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Product List</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <a href="" class="header-subnav__mobile-link">Product Single</a>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-3" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Shop Layouts</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-3" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Three Columns</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Four Columns</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Full Width</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-4" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Shop Pages</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-4" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">My account</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Cart</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Checkout</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-navbar__mobile-item">
+                                            <label for="mobile-subnav-checkbox-7" class="header-subnav__mobile-btn">
+                                                <span class="header-navbar__mobile-item-heading">Elements</span>
+                                                <i class="header-navbar__mobile-item-icon fas fa-chevron-right"></i>
+                                            </label>
+                                            <input type="checkbox" id="mobile-subnav-checkbox-7" class="header-subnav__mobile-checkbox">
+                                            <div class="header-subnav__mobile-wrap">
+                                                <ul class="header-subnav__mobile-list">
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-5" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Featured</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-5" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Tour List</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Tour Carousel</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Tours Filter</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Destination With Tours</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Destination List</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Destination Fullscreen Slider</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Fullscreen Sections</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Reviews Carousel</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-6" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Presentation</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-6" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Team</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Blog List</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Shop List</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Testimonials</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Banner</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Clients</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Parallax Section</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Video Button</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-7" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Classic</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-7" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Accordions</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Tabs</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Buttons</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Google Maps</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Contact Form</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Progress Bar</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Countdown</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Counters</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="./index-3.html" class="header-s-subnav__mobile-link">Call To Action</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="header-subnav__mobile-item">
+                                                        <label for="mobile-s-subnav-checkbox-8" class="header-s-subnav__mobile-checkbox">
+                                                            <a href="" class="header-subnav__mobile-link">Typography</a>
+                                                            <i class="header-subnav__mobile-item-icon fas fa-chevron-right"></i>
+                                                        </label>
+                                                        <input type="checkbox" name="" id="mobile-s-subnav-checkbox-8" class="header-s-subnav__mobile-menu">
+                                                        <div class="header-s-subnav__mobile-wrap">
+                                                            <ul class="header-s-subnav__mobile-list">
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Headings</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Columns</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Section Title</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Blockquote</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Dropcaps</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Highlights</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Icon with text</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Separators</a>
+                                                                </li>
+                                                                <li class="header-s-subnav__mobile-item">
+                                                                    <a href="" class="header-s-subnav__mobile-link">Custom Font</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="header-navbar__logo">
+                            <a href="./index.html" class="header-navbar__item-link-img">
+                                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo.png" alt="Setsail" class="header-navbar__item-img hide-on-mobile-tablet">
+                                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-mobile-img.png" alt="Setsail" class="header-navbar__item-mobile-img">
+                            </a>
+                        </div>
+                        <ul class="header-navbar__list hide-on-mobile-tablet">
+                            <li class="header-navbar__item">
+                                <span class="header-navbar__item-heading">Home</span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav__list">
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Travel Agency
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="./index.html" class="header-subnav__item-link">
+                                                Winter Holidays
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Exotic Destinations
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Summer Holidays
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                City Tours
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                New Year Trips
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Destination Carousel
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Wine Tours
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Vacation Showcase
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Landing
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-navbar__item">
+                                <span class="header-navbar__item-heading">Pages</span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav__list">
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                About Us
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                What We Offer
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="./team.html" class="header-subnav__item-link">
+                                                Our Team
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Get In Touch
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Contact Us
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                FAQ Page
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Coming Soon
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Error Page
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-navbar__item">
+                                <span class="header-navbar__item-heading">Destinations</span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav__list">
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Destinations List
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Destinations Slider
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Destinations Item
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-navbar__item">
+                                <span class="header-navbar__item-heading">Tours</span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav__list">
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Standard List
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Gallery List
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Split List
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Tours Item
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-navbar__item">
+                                <span class="header-navbar__item-heading">Blog</span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav__list">
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Blog Masonry
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item header-subnav__has-s-subnav-1 ">
+                                            <a href="" class="header-subnav__item-link">
+                                                Blog Standard
+                                            </a>
+                                            <i class="header-subnav__link-icon fas fa-chevron-right"></i>
+                                            <ul class="header-s-subnav__list">
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Right Sidebar
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Left Sidebar
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Without Sidebar
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="header-subnav__item header-subnav__has-s-subnav-1 ">
+                                            <a href="" class="header-subnav__item-link">
+                                                Post Types
+                                            </a>
+                                            <i class="header-subnav__link-icon fas fa-chevron-right"></i>
+                                            <ul class="header-s-subnav__list">
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Standard
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Gallery
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Link
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Quotes
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Video
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Audio
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        No Sidebar
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-navbar__item pull-right">
+                                <span class="header-navbar__item-heading">Shop</span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav__list">
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Product List
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item">
+                                            <a href="" class="header-subnav__item-link">
+                                                Product Single
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav__item header-subnav__has-s-subnav-2">
+                                            <i class="header-subnav__link-icon fas fa-chevron-left"></i>
+                                            <a href="" class="header-subnav__item-link">
+                                                Shop Layout
+                                            </a>
+                                            <ul class="header-s-subnav__list">
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Three Columns
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Four Columns
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Full Width
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li class="header-subnav__item header-subnav__has-s-subnav-2">
+                                            <i class="header-subnav__link-icon fas fa-chevron-left"></i>
+                                            <a href="" class="header-subnav__item-link">
+                                                Shop Pages
+                                            </a>
+                                            <ul class="header-s-subnav__list">
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        My Account
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Cart
+                                                    </a>
+                                                </li>
+                                                <li class="header-s-subnav__item">
+                                                    <a href="" class="header-subnav__item-link">
+                                                        Checkout
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-navbar__item">
+                                <span class="header-navbar__item-heading">Elements</span>
+                                <div class="header-subnav-large">
+                                    <div class="grid">
+                                        <div class="row">
+                                            <div class="col l-3">
+                                                <span class="header-subnav-large__heading">Featured</span>
+                                                <ul class="header-subnav-large__list">
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Tour List
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Tour Carousel
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Tours Filter
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Destination With Tours
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Destination List
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Destination Fullscreen Slider
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Fullscreen Section
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Review Carousel
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col l-3">
+                                                <span class="header-subnav-large__heading">Presentation</span>
+                                                <ul class="header-subnav-large__list">
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Team
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Blog List
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Shop List
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Testimonials
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Banner
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Clients
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Parallax Section
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Video Button
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col l-3">
+                                                <span class="header-subnav-large__heading">Classic</span>
+                                                <ul class="header-subnav-large__list">
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Accordions
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Tabs
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Buttons
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Goolge Maps
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Contact Form
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Progress Bar
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Count Down
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Counters
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="./index-3.html" class="header-subnav__item-link">
+                                                            Call To Actions
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col l-3">
+                                                <span class="header-subnav-large__heading">Typography</span>
+                                                <ul class="header-subnav-large__list">
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Heading
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Column
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Section
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Blockquote
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Drop Caps
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Hightlight
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Count Down
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="" class="header-subnav__item-link">
+                                                            Counters
+                                                        </a>
+                                                    </li>
+                                                    <li class="header-subnav-large__item">
+                                                        <a href="./index-3.html" class="header-subnav__item-link">
+                                                            Call To Actions
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-navbar__link hide-on-mobile-tablet">
+                            <div class="header__cart">
+                                <a href="" class="header-navbar__item-link">
+                                    <i class="header-navbar__item-icon bx bx-cart-alt"></i>
+                                </a>
+                                <div class="header__cart-list">
+                                    <span class="header__cart-heading">No products in the cart.</span>
+                                </div>
+                            </div>
+                            <div class="header-navbar__search">
+                                <label for="btn__search" class="header-navbar__item-btn">
+                                    <i class="header-navbar__item-icon bx bx-search"></i>
+                                </label>
+                                <input type="checkbox" name="" class="header-navbar__search-checkbox" id="btn__search">
+                                <label for="btn__search" class="header-navbar__search-modal">
+                                    <div class="header-navbar__search-overlay">
+                                    </div>
+                                    <label for="btn__search" class="header-navbar__close">
+                                        <i class="header-navbar__close-icon bx bx-x"></i>
+                                    </label>
+                                    <div class="header-navbar__search-box">
+                                        <input type="text" class="header-navbar__search-input" placeholder="Search...">
+                                        <button class="header-navbar__search-btn">FIND NOW</button>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="header-navbar__menu">
+                                <label for="btn__menu" class="header-navbar__item-btn">
+                                    <i class="header-navbar__item-icon bx bx-menu-alt-right"></i>
+                                </label>
+                                <input type="checkbox" name="" class="header-navbar__menu-checkbox" id="btn__menu">
+                                <div class="header-navbar__menu-nav">
+                                    <label for="btn__menu" class="header-navbar__close">
+                                        <i class="header-navbar__close-icon bx bx-x"></i>
+                                    </label>
+                                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-sidearea.png" class="header-navbar__menu-brand" alt="Set sail">
+                                    <img src="	https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img-2.png" class="header-navbar__menu-text-img" alt="">
+                                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img.jpg" alt="" class="header-navbar__menu-map">
+                                    <span class="header-navbar__menu-text">
+                                        Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque
+                                    </span>
+                                    <div class="header-navbar__menu-search">
+                                        <span class="header-navbar__menu-search-heading">Find Your Destination</span>
+                                        <div class="header-navbar__menu-search-box">
+                                            <input type="text" class="header-navbar__menu-input" placeholder="Search...">
+                                            <button class="btn btn--primary header-navbar__menu-search-btn">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                        <div class="header-navbar__menu-footer">
+                                            <span class="header-navbar__menu-footer-heading">Follow Me</span>
+                                            <div class="header-navbar__menu-footer-btn">
+                                                <a href="" class="btn btn--primary"><i class="fab fa-twitter"></i></a>
+                                                <a href="" class="btn btn--primary"><i class="fab fa-pinterest-p"></i></a>
+                                                <a href="" class="btn btn--primary"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="" class="btn btn--primary"><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <label for="btn__menu" class="header-navbar__menu-overlay"></label>
+                                
+                            </div>
+                        </div>
+                        <div class="header-navbar__mobile-login">
+                            <label for="mobile-login-btn-2">
+                                <i class="header-navbar__mobile-login-icon far fa-user"></i>
+                            </label>
+                            <input type="checkbox" name="" id="mobile-login-btn-2" class="header-navbar__mobile-login-checkbox">
+                            <div class="header-navbar__mobile-modal">
+                                <label for="mobile-login-btn-2" class="header-navbar__mobile-overlay"></label>
+                                <div class="header-navbar__mobile-login-box">
+                                    <div class="header-navbar__mobile-login-wrap">
+                                        <div class="header-navbar__mobile-login-text">
+                                            <span class="header-navbar__mobile-login-heading">LOGIN</span>
+                                            <span class="header-navbar__mobile-login-heading">REGISTER</span>
+                                        </div>
+                                        <div class="header-navbar__mobile-login-form">
+                                            <div class="header-navbar__mobile-text-heading">Sign in here!</div>
+                                            <div class="header-navbar__mobile-desc">Log into your account in just a few simple steps.</div>
+                                            <form action="">
+                                                <div class="header-navbar__mobile-input">
+                                                    <i class="header-navbar__mobile-input-icon far fa-user"></i>
+                                                    <input type="text" class="header-navbar__mobile-form-control" placeholder="Name">
+                                                </div>
+                                                <div class="header-navbar__mobile-input">
+                                                    <i class="header-navbar__mobile-input-icon fas fa-unlock-alt"></i>
+                                                    <input type="password" class="header-navbar__mobile-form-control" placeholder="Password">
+                                                </div>
+                                                <div class="header-navbar__mobile-input">
+                                                    <input type="checkbox" class="header-navbar__mobile-form-control" id="mobile-remember-login">
+                                                    <label for="mobile-remember-login">Remember me</label>
+                                                </div>
+                                            </form>
+                                            <a href="" class="header-navbar__mobile-login-link">Lost Your password?</a>
+                                            <button class="header-navbar__mobile-login-btn">SIGN IN</button>
+                                            <div class="header-navbar__mobile-desc">
+                                                Sign in with Facebook or Google+.
+                                            </div>
+                                        </div>
+                                        <div class="header-navbar__mobile-login-social">
+                                            <a href="" class="header-navbar__mobile-login-face">FACEBOOK</a>
+                                        <a href="" class="header-navbar__mobile-login-google">GOOGLE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="slider-2">
+            <div class="slider-2__img" style="background-image:  url('https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-title-1.jpg');">
+                <div class="slider-2__text">
+                    <div class="slider-2__heading">Amazing tour</div>
+                    <div class="slider-2__sub-heading">Our Team</div>
+                </div>
+            </div>
+        </div>
+        <div class="home-holiday">
+            <div class="home-holiday__intro">
+                <span class="home-holiday__heading">The Best</span>
+                <span class="home-holiday__sub-heading">Travel Experts</span>
+                <span class="home-desc__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</span>
+            </div>
+            <div class="grid wide">
+                <div class="row l-gutter row-wrap">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="home-team__item" style="background-image: url('https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-1.jpg');">
+                            <div class="home-team__item-info">
+                                <span class="home-team__item-name">Teresa James</span>
+                                <span class="home-team__item-desc">Sed ut perspiciatis unde omnis iste natus error sit</span>
+                                <div class="home-team__item-link">
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="home-team__item" style="background-image: url('	https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-2.jpg');">
+                            <div class="home-team__item-info">
+                                <span class="home-team__item-name">Jane Willis</span>
+                                <span class="home-team__item-desc">Sed ut perspiciatis unde omnis iste natus error sit</span>
+                                <div class="home-team__item-link">
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="home-team__item" style="background-image: url('https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-3.jpg');">
+                            <div class="home-team__item-info">
+                                <span class="home-team__item-name">Ralph Fields</span>
+                                <span class="home-team__item-desc">Sed ut perspiciatis unde omnis iste natus error sit</span>
+                                <div class="home-team__item-link">
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="home-team__item" style="background-image: url('https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-4.jpg');">
+                            <div class="home-team__item-info">
+                                <span class="home-team__item-name">Lori Harvey</span>
+                                <span class="home-team__item-desc">Sed ut perspiciatis unde omnis iste natus error sit</span>
+                                <div class="home-team__item-link">
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="" class="home-team__link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-desc">
+                    <div class="row l-gutter row-wrap">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="home-desc__item">
+                                <div class="home-desc__item-heading">Our Perfect Team</div>
+                                <div class="home-desc__item-desc">Si elit omnes impedit ius, vel et hinc agam fabulas. Ut audiam invenire iracundia vim. Tn ea diam ea. Piber Korem sit amet.</div>
+                                <div class="home-desc__item-text">Al elit omnes impedfghit ius, vel et hinc agam fabulas. Ut audiam inve nire iracu ndia vim. En eam dico simi lique, ut sint posse sit, eum sumo diam ea. Liber consec tetuer in mei, sea in imperdiet assue verit contentiones, an his cibo bla ndit tacimates. Iusto iudi cabit simil ique id velex, in sea rebum deser uisse appntur honcus. Maece nas cibo blandit tacim ates sint posse.</div>
+                                <div class="home-desc__item-btn">
+                                    <a href="" class="home-intro__item-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="home-desc__item">
+                                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img1.jpg" alt="" class="home-desc__item-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-subcribe">
+            <div class="home-subcribe__item">
+                <div class="home-subcribe__item-text">Subscribe to Get Daily News.</div>
+            </div>
+            <div class="home-subcribe__item">
+                <a href="" class="home-subcribe__item-btn">JOIN NOW</a>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="row row-wrap">
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer__item">
+                        <a href="" class="footer__item-img-link">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-footer.png" alt="" class="footer__item-img">
+                        </a>
+                        <span class="footer__item-desc">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</span>
+                        <ul class="footer__item-info">
+                            <li class="footer__item-section">
+                                <a href="mailto:setsail@qode.com" class="footer__item-link">
+                                    <i class="far fa-envelope"></i>
+                                    <span>
+                                        setsail@qode.com
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="footer__item-section">
+                                <a href="tel:1 562 867 5309" class="footer__item-link">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>
+                                        1 562 867 5309
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="footer__item-section">
+                                <a href="" class="footer__item-link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>
+                                        Broadway & Morris St, New York
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer__item">
+                        <span class="footer__item-heading">Our Recent Posts </span>
+                        <ul class="footer__item-list">
+                            <li class="footer__item-body">
+                                <a href="" class="footer__item-location">
+                                    Visit Thailand, Bali And China
+                                </a>
+                                <a href="" class="footer__item-time">
+                                    September 7, 2016
+                                </a>
+                            </li>
+                            <li class="footer__item-body">
+                                <a href="" class="footer__item-location">
+                                    The Sound Of Our Jungle
+                                </a>
+                                <a href="" class="footer__item-time">
+                                    September 7, 2016
+                                </a>
+                            </li>
+                            <li class="footer__item-body">
+                                <a href="" class="footer__item-location">
+                                    New Year, New Resolutions!
+                                </a>
+                                <a href="" class="footer__item-time">
+                                    September 7, 2016
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer__item">
+                        <span class="footer__item-heading">Subscribe to our Newsletter</span>
+                        <span class="footer__item-sub-desc">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</span>
+                        <form action="">
+                            <div class="footer__input">
+                                <i class="fas fa-user"></i>
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="footer__input">
+                                <i class="far fa-envelope"></i>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="footer__input footer__input-submit">
+                                <input type="submit" value="SUBSCRIBE" class="form-control ">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer__item">
+                        <span class="footer__item-heading">Our Instagram</span>
+                        <span class="footer__item-sub-desc">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <span>Copyright by @ <a href="" class="footer__copyright-link">Thảo Thu Trần</a></span>
+            </div>
+        </footer>
+
+        <div class="button-to-top">
+            <a href="#" class="btn btn--go-to-top ">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
