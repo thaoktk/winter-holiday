@@ -194,6 +194,15 @@
     padding: 0 50px;
 }
 
+.home-desc__desc {
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--text-color);
+    margin-top: 40px;
+}
+
 .home-team__item {
     height: 300px;
     overflow: hidden;
