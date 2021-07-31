@@ -92,21 +92,14 @@ html {
     }
 }
 
-@keyframes slider {
-    25% {
-        background-image: url('https://www.jetsetter.com//uploads/sites/7/2018/04/7Np69-pW-1380x690.jpeg');
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
     }
-    50% {
-        background-image: url('https://res.cloudinary.com/whistler/image/upload/w_500,c_scale,dpr_3.0,q_auto/v1/s3/images/header/skiing-whistler-blackcomb-2.jpg');
-    }
-    75% {
-        background-image: url('https://www.silverswanrecruitment.com/wp-content/uploads/2018/04/pexels-flo-maderebner-869258-scaled.jpg');
-    }
-    100% {
-        background-image: url('https://static.euronews.com/articles/stories/05/13/78/44/1440x810_cmsv2_1663514d-f816-50b3-ad92-b4d1195fd4cf-5137844.jpg');
+    to {
+        transform: scale(1.06);
     }
 }
-
 
 /* btn */
 

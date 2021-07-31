@@ -80,7 +80,7 @@
     background-color: var(--primary-color);
     list-style: none;
     display: none;
-    transition: growthHeight linear 0.3s;
+    animation: growthHeight linear 0.2s;
 }
 
 .header-connect__language-item {
@@ -191,7 +191,16 @@
 /* team */
 
 .home-holiday {
-    padding: 0 50px;
+    padding: 0 40px;
+}
+
+.home-desc__desc {
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--text-color);
+    margin-top: 40px;
 }
 
 .home-team__item {

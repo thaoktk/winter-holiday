@@ -705,9 +705,10 @@
     position: relative;
     z-index: 1;
     margin: auto;
-    width: 308px;
+    max-width: 308px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header-navbar__mobile-login-text {
@@ -837,7 +838,12 @@
 
 
 /* app container */
+.slider {
+    overflow: hidden;
+}
+
 .slider__img {
+    overflow: hidden;
     margin-top: 80px;
     padding: 30px;
     position: relative;
@@ -846,8 +852,8 @@
     justify-content: center;
     text-align: center;
     min-height: 500px;
-    background: url('https://www.jetsetter.com//uploads/sites/7/2018/04/7Np69-pW-1380x690.jpeg') center / cover no-repeat;
-    animation: slider 20s infinite, opacity 0.4s linear;
+    background: center / cover no-repeat;
+    transition: all 0.9s;
 }
 
 .slider__text {
@@ -921,6 +927,11 @@
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.home-tour-item__img-wrap {
+    overflow: hidden;
 }
 
 .home-tour-item__img {

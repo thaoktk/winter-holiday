@@ -1,5 +1,5 @@
-/* mobile tablet */
 @media (max-width: 64em) {
+    /* mobile tablet */
     .hide-on-mobile-tablet {
         display: none;
     }
@@ -59,6 +59,8 @@
     }
 
     .home-team__item {
+        background-position: top center;
+        height: 500px;
         height: 400px;
         margin-top: 20px;
     }
@@ -197,6 +199,10 @@
 
     .home-intro__item-desc {
         width: 290px;
+    }
+
+    .header-navbar__mobile-login-wrap {
+        width: 280px;
     }
 
     .slider-2__sub-heading,
