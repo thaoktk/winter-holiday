@@ -170,7 +170,6 @@ html {
 
 
 /* dot */
-
 .dot {
     border: none;
     outline: none;
@@ -183,6 +182,7 @@ html {
     transition: background-color ease-in 0.1s;
     -webkit-tap-highlight-color: transparent;
 }
+
 
 .dot:hover {
     background-color: var(--second-color);

@@ -1,9 +1,7 @@
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
 
-const prevBtn = $('.btn-prev')
-const nextBtn = $('.btn-next')
-const slider = $('.slider__img')
+const prevBtn = document.querySelector('.btn-prev')
+const nextBtn = document.querySelector('.btn-next')
+const slider = document.querySelector('.slider__img')
 
 const sliderImg = {
     currentIndex: 0,
@@ -76,9 +74,65 @@ const sliderImg = {
 
 sliderImg.start();
 
-$(document).ready(function(){
-    $('.home-tour-list').slick({
-        autoplaySpeed: 3000,
-        draggable: true,
-    });
-  });
+$('.home-tour-list').slick({
+    slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite:true,
+    responsive: [
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
+
+$('.home-review-list').slick({
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite:true,
+    responsive: [
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+})
+
+$('.home-team-list').slick({
+    slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true,
+    responsive: [
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+})
