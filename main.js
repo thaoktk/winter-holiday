@@ -137,4 +137,5 @@ $('.home-team-list').slick({
     ]
 })
 
+
 $('.home-experience__quantity').counterUp({ delay: 10, time: 1000})
