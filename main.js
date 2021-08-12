@@ -84,7 +84,7 @@ $('.home-tour-list').slick({
     infinite:true,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1025,
             settings: {
                 slidesToShow: 3,
             }
@@ -106,7 +106,7 @@ $('.home-review-list').slick({
     infinite:true,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1025,
             settings: {
                 slidesToShow: 2,
             }
