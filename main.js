@@ -2,6 +2,7 @@
 const prevBtn = document.querySelector('.btn-prev')
 const nextBtn = document.querySelector('.btn-next')
 const slider = document.querySelector('.slider__img')
+const sliderText = document.querySelector('.slider__text')
 
 const sliderImg = {
     currentIndex: 0,
@@ -46,6 +47,7 @@ const sliderImg = {
     },
     loadCurrentSlide: function() {
         slider.style.backgroundImage = `url(${this.currentImg.img})`;
+        sliderText.animate([{ opacity: 0, transform: 'translateY(10%)' }, { opacity: 1, transform: 'translateY(-10%)' }], {duration: 2000, easing: "ease-in", fill: 'forwards'} )
     },
     nextSlide: function() {
         this.currentIndex++;
@@ -75,19 +77,20 @@ const sliderImg = {
 sliderImg.start();
 
 $('.home-tour-list').slick({
+    arrows: false,
     slidesToShow: 4,
     autoplay: true,
     autoplaySpeed: 4000,
     infinite:true,
     responsive: [
         {
-            breakpoint: 800,
+            breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
             }
         },
         {
-            breakpoint: 500,
+            breakpoint: 740,
             settings: {
                 slidesToShow: 1,
             }
@@ -96,19 +99,20 @@ $('.home-tour-list').slick({
 });
 
 $('.home-review-list').slick({
+    arrows: false,
     slidesToShow: 3,
     autoplay: true,
     autoplaySpeed: 4000,
     infinite:true,
     responsive: [
         {
-            breakpoint: 800,
+            breakpoint: 1024,
             settings: {
                 slidesToShow: 2,
             }
         },
         {
-            breakpoint: 500,
+            breakpoint: 740,
             settings: {
                 slidesToShow: 1,
             }
@@ -117,25 +121,25 @@ $('.home-review-list').slick({
 })
 
 $('.home-team-list').slick({
+    arrows: false,
     slidesToShow: 4,
     autoplay: true,
     autoplaySpeed: 4000,
     infinite: true,
     responsive: [
         {
-            breakpoint: 800,
+            breakpoint: 1024,
             settings: {
                 slidesToShow: 2,
             }
         },
         {
-            breakpoint: 500,
+            breakpoint: 740,
             settings: {
                 slidesToShow: 1,
             }
         }
     ]
 })
-
 
 $('.home-experience__quantity').counterUp({ delay: 10, time: 1000})
