@@ -173,6 +173,7 @@ html {
     background-color: var(--second-color);
 }
 
+
 /* scrollbar */
 
 ::-webkit-scrollbar {
@@ -193,7 +194,35 @@ html {
     background: linear-gradient(rgba(63, 208, 212, 0.6), rgb(38, 134, 138));
 }
 
+/* slick dots */
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+}
 
+.slick-dots li button {
+    font-size: 0;
+    border: none;
+    outline: none;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(63,208,212, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    -webkit-tap-highlight-color: transparent;
+}
 
+.slick-dots li button::before {
+    content: '';
+}
 
-
+.slick-dots li button:hover,
+.slick-dots li.slick-active button {
+    background-color: var(--second-color);
+}

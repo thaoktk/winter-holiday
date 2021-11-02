@@ -79,20 +79,24 @@ sliderImg.start();
 $('.home-tour-list').slick({
     arrows: false,
     slidesToShow: 4,
+    slidesToScroll: 4,
     autoplay: true,
     autoplaySpeed: 4000,
-    infinite:true,
+    infinite: true,
+    dots: true,
     responsive: [
         {
             breakpoint: 1025,
             settings: {
                 slidesToShow: 3,
+                slidesToScroll: 3
             }
         },
         {
             breakpoint: 740,
             settings: {
                 slidesToShow: 1,
+                slidesToScroll: 1
             }
         }
     ]
@@ -101,13 +105,16 @@ $('.home-tour-list').slick({
 $('.home-review-list').slick({
     arrows: false,
     slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 4000,
-    infinite:true,
+    infinite:true, 
+    dots: true,
     responsive: [
         {
             breakpoint: 1025,
             settings: {
+                slidesToScroll: 2,
                 slidesToShow: 2,
             }
         },
@@ -115,6 +122,7 @@ $('.home-review-list').slick({
             breakpoint: 740,
             settings: {
                 slidesToShow: 1,
+                slidesToScroll: 1,
             }
         }
     ]
@@ -128,7 +136,7 @@ $('.home-team-list').slick({
     infinite: true,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1025,
             settings: {
                 slidesToShow: 2,
             }

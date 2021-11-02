@@ -60,8 +60,7 @@
 
     .home-team__item {
         background-position: top center;
-        height: 500px;
-        height: 400px;
+        height: 80vh;
         margin-top: 20px;
     }
 

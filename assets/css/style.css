@@ -29,6 +29,10 @@
     display: none;
 }
 
+.header-navbar__mobile-menu:hover {
+    cursor: pointer;
+}
+
 .header-navbar__mobile-menu-btn {
     display: none;
 }
@@ -910,10 +914,11 @@
 }
 
 .home-tour-list {
+    position: relative;
     overflow-x: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
+    min-height: 430px;
+    padding-bottom: 70px;
 }
 
 .home-tour-list::-webkit-scrollbar {
@@ -926,7 +931,7 @@
     width: 100%;
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
     overflow: hidden;
 }
 
@@ -1177,6 +1182,7 @@
     scrollbar-width: none;
     display: flex;
     align-items: stretch; 
+    padding-bottom: 70px;
 }
 
 .home-review-list::-webkit-scrollbar {
@@ -1338,7 +1344,7 @@
 .home-team__item {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
