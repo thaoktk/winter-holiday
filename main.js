@@ -9,19 +9,19 @@ const sliderImg = {
     bgImgs: [
         {
             id: 1, 
-            img: 'https://www.jetsetter.com//uploads/sites/7/2018/04/7Np69-pW-1380x690.jpeg'
+            img: 'https://images.unsplash.com/photo-1570745096688-2f8f2368d1e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=917&q=80https://www.jetsetter.com//uploads/sites/7/2018/04/7Np69-pW-1380x690.jpeghttps://images.unsplash.com/photo-1570745096688-2f8f2368d1e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=917&q=80'
         },
         {
             id: 2, 
-            img: 'https://res.cloudinary.com/whistler/image/upload/w_500,c_scale,dpr_3.0,q_auto/v1/s3/images/header/skiing-whistler-blackcomb-2.jpg'
+            img: 'https://images.unsplash.com/photo-1505932361786-f14e9ce89a0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=892&q=80'
         },
         {
             id: 3, 
-            img: 'https://www.silverswanrecruitment.com/wp-content/uploads/2018/04/pexels-flo-maderebner-869258-scaled.jpg'
+            img: 'https://images.unsplash.com/photo-1491466424936-e304919aada7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80'
         },
         {
             id: 4, 
-            img: 'https://static.euronews.com/articles/stories/05/13/78/44/1440x810_cmsv2_1663514d-f816-50b3-ad92-b4d1195fd4cf-5137844.jpg'
+            img: 'https://images.unsplash.com/photo-1596016691838-70260f1e21c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80'
         },
     ],
     defineProperties: function() {

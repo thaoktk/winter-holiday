@@ -198,7 +198,6 @@ html {
 .slick-dots {
     position: absolute;
     bottom: 0;
-    z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,3 +225,5 @@ html {
 .slick-dots li.slick-active button {
     background-color: var(--second-color);
 }
+
+

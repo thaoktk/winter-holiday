@@ -29,10 +29,6 @@
     display: none;
 }
 
-.header-navbar__mobile-menu:hover {
-    cursor: pointer;
-}
-
 .header-navbar__mobile-menu-btn {
     display: none;
 }
@@ -41,6 +37,8 @@
     color: var(--white-color);
     font-size: 1.8rem;
     display: block;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .header-navbar__mobile-menu-modal {
@@ -50,7 +48,9 @@
     left: 0;
     right: 0;
     animation: fadeIn linear 0.3s;
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
 }
 
 .header-navbar__mobile-menu-overlay {
@@ -88,12 +88,14 @@
     padding: 10px 0;
     border-bottom: 1px solid #eee;
     position: relative;
+    cursor: pointer;
 }
 
 
 .header-subnav__mobile-btn {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .header-navbar__mobile-item-heading {
@@ -119,8 +121,8 @@
 .header-subnav__mobile-wrap {
     margin: 10px 0 0 30px;
     width: 90%;
-    display: none;
     animation: growthHeight linear 0.3s;
+    display: none;
 }
 
 .header-subnav__mobile-list {
@@ -162,7 +164,8 @@
 
 .header-s-subnav__mobile-wrap {
     margin: 10px 0 0 30px;
-    display: none;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .header-s-subnav__mobile-checkbox {
@@ -206,10 +209,13 @@
     position: relative;
     padding: 0 37px;
     cursor: pointer;
+    height: 100%;
 }
 
 .header-navbar__item:hover .header-subnav {
-    display: block;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
 }
 
 .header-navbar__item-icon {
@@ -225,7 +231,7 @@
 .header-navbar__item-heading {
     position: relative;
     font-size: 1.5rem;
-    line-height: 8rem;
+    line-height: 10rem;
     font-weight: 600;
     color: var(--heading-color);
 }
@@ -317,9 +323,11 @@
     background-color: var(--white-color);
     min-width: 250px;
     transition-delay: 0s, 0s, 0.3s;
-    animation: growthHeight ease-out 0.5s;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    display: none;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s ease;
 }
 
 .header-subnav__list {
@@ -680,6 +688,7 @@
     line-height: 1.8rem;
     color: var(--white-color);
     cursor: pointer;
+    padding: 10px;
 }
 
 .header-navbar__mobile-login-checkbox {
@@ -687,6 +696,7 @@
 }
 
 .header-navbar__mobile-modal {
+    display: flex;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -694,8 +704,9 @@
     left: 0;
     right: 0;
     align-items: center;
-    display: none;
-    animation: fadeIn linear 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
 }
 
 .header-navbar__mobile-overlay {
@@ -1349,6 +1360,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .home-team__item-info {

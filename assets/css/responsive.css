@@ -22,7 +22,8 @@
     }
 
     .header-navbar__mobile-menu-btn:checked ~ .header-navbar__mobile-menu-modal{
-        display: block;
+        opacity: 1;
+        visibility: visible;
     }
 
     .header-subnav__mobile-checkbox:checked ~ .header-subnav__mobile-wrap {
@@ -30,11 +31,13 @@
     }
 
     .header-s-subnav__mobile-menu:checked ~ .header-s-subnav__mobile-wrap {
-        display: block;
+        opacity: 1;
+        visibility: visible;
     }
 
     .header-navbar__mobile-login-checkbox:checked ~ .header-navbar__mobile-modal {
-        display: flex;
+        opacity: 1;
+        visibility: visible;
     }
 
     .header-navbar__mobile-login {
